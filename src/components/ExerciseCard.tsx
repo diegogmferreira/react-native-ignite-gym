@@ -30,6 +30,7 @@ export function ExerciseCard({ headingText, details, ...rest }: Props) {
           <Heading
             fontSize='lg'
             color='white'
+            fontFamily='heading'
           >
             {headingText}
           </Heading>
